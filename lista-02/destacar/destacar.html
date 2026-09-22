@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Destacar</title>
+    <style>
+      .destacado {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>destacar.html</h1>
+    <p>Escreva um nome e veja ele destacado na lista</p>
+    <p>Se o nome não estiver na lista, ou não for exatamente igual, ele não será destacado</p>
+    <input id="nome" placeholder="Digite um nome" onkeyup="destacar()" />
+    <ol id="listaDeNomes">
+      <li>João</li>
+      <li>Márcio</li>
+      <li>Fabiana</li>
+      <li>Jorge</li>
+      <li>Silvana</li>
+      <li>Luiz</li>
+      <li>Carlos</li>
+      <li>Pablo</li>
+    </ol>
+
+    <script src="script.js"></script>
+  </body>
+</html>

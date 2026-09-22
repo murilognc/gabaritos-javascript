@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="verificadorIdade.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        Ano de Nascimento: <input id="ano_nasc" type="number" ><br>
+        Sexo:
+            <label>
+                <input type="radio" id="masculino" name="sexo" value="masculino"> Masculino
+            </label>
+            <label>
+                <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+            </label>
+        <br><input type="button" value="verificar" onclick="verificar_dados()">
+
+        <p id="mensagem"></p>
+        <img id="imagem" src="" alt="Imagem correspondente" ; width:200px;>
+    </section>
+    <footer>
+        <p>&copy; Uniderp </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtro de Lista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>filtrar.html</h2>
+    <p>Crie um campo de entrada que filtre os itens de uma lista conforme o usuário digita.</p>
+    <input type="text" id="search" placeholder="Digite um nome..." onkeyup="filtrarLista()" />
+    <ul id="lista">
+        <li>João</li>
+        <li>Márcio</li>
+        <li>Fabiana</li>
+        <li>Jorge</li>
+        <li>Silvana</li>
+        <li>Luiz</li>
+        <li>Carlos</li>
+        <li>Pablo</li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

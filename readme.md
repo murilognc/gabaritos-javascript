@@ -1,6 +1,6 @@
-# Desenvolvimento em Javascript - Gabaritos das Listas de Exercícios
+# Programação em JavaScript - Gabaritos das Listas de Exercícios
 
-Repositório dedicado aos códigos-fonte e gabaritos das listas de exercícios desenvolvidas ao longo da disciplina de **Desenvolvimento em JavaScript**. 
+Repositório dedicado aos códigos-fonte e gabaritos das listas de exercícios desenvolvidas ao longo da disciplina de **Programação em JavaScript**. 
 
 O objetivo deste espaço é fornecer aos estudantes os exemplos práticos resolvidos, servindo como material de apoio para estudos, revisão e fixação dos conteúdos abordados em aula.
 

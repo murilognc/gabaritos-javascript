@@ -1,0 +1,15 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+select {
+    padding: 8px;
+    width: 300px;
+}
+
+.comentario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}

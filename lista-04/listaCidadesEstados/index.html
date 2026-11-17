@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Estados e Cidades</title>
+  <style>
+    select { margin: 10px 0; padding: 8px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>Selecionar Estado e Cidade</h2>
+
+  <label for="estados">Estado:</label>
+  <select id="estados" onchange="carregarCidades()"></select>
+
+  <label for="cidades">Cidade:</label>
+  <select id="cidades" onchange="mostrarResultado()"></select>
+
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
